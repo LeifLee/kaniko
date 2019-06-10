@@ -1,3 +1,2 @@
-FROM alpine:3.9
-WORKDIR /app
+FROM busybox
 RUN echo "hello" > world.txt
